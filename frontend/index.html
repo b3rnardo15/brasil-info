@@ -1,0 +1,46 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brasil Info - Informações sobre Localidades Brasileiras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Brasil Info</h1>
+      <p>Descubra informações sobre cidades brasileiras</p>
+    </div>
+  </header>
+  <div id="carregando" style="display: none;">Carregando...</div>
+
+
+  <main class="container">
+    <section class="busca">
+      <h2>Buscar Localidade</h2>
+      <div class="campo-busca">
+        <input type="text" id="termo-busca" placeholder="Digite o nome da cidade ou estado...">
+        <button id="btn-buscar">Buscar</button>
+      </div>
+    </section>
+
+    <section class="resultados">
+      <div id="lista-locais"></div>
+      <div id="detalhes-local" class="escondido">
+        <button id="voltar">&larr; Voltar para lista</button>
+        <div id="conteudo-detalhes"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Brasil Info - Projeto acadêmico</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
