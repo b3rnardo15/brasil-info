@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const btnVoltar = document.getElementById('voltar');
   const carregando = document.getElementById('carregando'); 
   
-  // URL da API - mude para o seu endpoint se necessário
+  // URL da API 
   const API_URL = 'http://localhost:3000/api';
   
   // Carregar todos os locais ao iniciar
